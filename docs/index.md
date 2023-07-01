@@ -41,7 +41,7 @@ process = pygeoweaver.create_process(
 )
 ```
 
-3. Explore the functionalities and methods provided by Pygeoweaver to work with processes, workflows, and other geoweaver-related tasks. Refer to the [API Reference](/API%20Reference/create-process-from-file/) for detailed information on available classes and methods.
+3. Explore the functionalities and methods provided by Pygeoweaver to work with processes, workflows, and other geoweaver-related tasks. Refer to the [API Reference](/en/latest/API%20Reference/create-process-from-file/) for detailed information on available classes and methods.
 
 ## Using Pygeoweaver
 
