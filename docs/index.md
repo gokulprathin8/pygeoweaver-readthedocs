@@ -53,7 +53,7 @@ process = pygeoweaver.create_process(
 
 ## Password Reset for Localhost
 
-Geoweaver will automatically create a password for localhost. It will only show once at the first run of Geoweaver. It is recommended to copy and save it in a safe place. If you forget or miss that password, please run the following command to reset it:
+If you forget or need to reset the password for Geoweaver on localhost, run the following command in your terminal:
 
 ```shell
 java -jar geoweaver.jar resetpassword
