@@ -18,6 +18,14 @@ pip install pygeoweaver
 
 This command will install the latest version of Pygeoweaver and its dependencies on your machine. Make sure you have Python and `pip` installed and properly configured before running this command.
 
+After pygeoweaver is installed, please run:
+
+```shell
+gw start
+```
+
+Finally, Open your browser and enter: http://localhost:8070/Geoweaver/. That is it.
+
 ## Quick Start
 
 Once you have installed Pygeoweaver, you can quickly get started with the following steps:
@@ -42,6 +50,20 @@ process = pygeoweaver.create_process(
 ```
 
 3. Explore the functionalities and methods provided by Pygeoweaver to work with processes, workflows, and other geoweaver-related tasks. Refer to the [API Reference](/en/latest/API%20Reference/create-process-from-file/) for detailed information on available classes and methods.
+
+## Password Reset for Localhost
+
+Geoweaver will automatically create a password for localhost. It will only show once at the first run of Geoweaver. It is recommended to copy and save it in a safe place. If you forget or miss that password, please run the following command to reset it:
+
+```shell
+java -jar geoweaver.jar resetpassword
+```
+
+If you used Docker, use the following command:
+
+```shell
+docker run -t -i -v <YOUR_HOME_DIRECTORY>:/home/marsvegan/ -p 8070:8070 jensensun/geoweaver resetpassword
+```
 
 ## Using Pygeoweaver
 
